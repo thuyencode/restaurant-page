@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-wrapper {
+    @apply flex max-w-sm flex-col rounded-xl border bg-white shadow-sm dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7];
+  }
+  .card-content-wrapper {
+    @apply space-y-3 p-4 md:p-5;
+  }
+  .card-title {
+    @apply text-lg font-bold text-gray-800 dark:text-white;
+  }
+  .card-description {
+    @apply text-gray-500 dark:text-gray-400;
+  }
+  .card-details-btn {
+    @apply inline-flex items-center gap-x-2 rounded-lg border border-transparent text-sm font-semibold text-blue-600 hover:text-blue-800 disabled:pointer-events-none disabled:opacity-50 dark:text-blue-500 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+  }
+  .card-details-wrapper {
+    @apply w-full overflow-hidden transition-[height] duration-300;
+  }
+  .card-details {
+    @apply mt-1 text-gray-500 dark:text-gray-400;
+  }
+}
