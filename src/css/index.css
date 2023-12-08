@@ -4,7 +4,7 @@
 
 @layer components {
   .card-wrapper {
-    @apply flex max-w-xs flex-col rounded-xl border bg-white drop-shadow-lg dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7];
+    @apply xs:w-[42vw] flex w-full flex-col rounded-xl border bg-white drop-shadow-lg dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7] md:w-60 lg:w-72;
   }
   .card-head-wrapper {
     @apply relative min-h-[190px] overflow-hidden rounded-t-xl;
@@ -13,7 +13,7 @@
     @apply absolute inset-0 transform-gpu object-cover object-center transition-all duration-300 ease-in-out;
   }
   .card-head-gradient {
-    @apply absolute inset-0 transform-gpu bg-gradient-to-b from-slate-50/0 via-slate-900/20 to-slate-950 transition-all duration-300 ease-in-out;
+    @apply absolute inset-0 transform-gpu bg-gradient-to-b from-slate-50/0 via-slate-950/10 to-slate-950 transition-all duration-300 ease-in-out;
   }
   .card-title-wrapper {
     @apply absolute bottom-5 z-10 flex w-full items-center justify-between px-4 md:px-5;

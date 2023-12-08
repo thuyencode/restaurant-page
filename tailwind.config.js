@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,js}', 'node_modules/preline/dist/*.js'],
   theme: {
-    extend: {}
+    extend: {
+      screens: {
+        xs: '475px'
+      }
+    }
   },
   plugins: [require('preline/plugin')]
 }
