@@ -10,7 +10,7 @@
     @apply relative min-h-[190px] overflow-hidden rounded-t-xl;
   }
   .card-head-img {
-    @apply absolute inset-0 transform-gpu  object-cover object-center transition-all duration-300 ease-in-out;
+    @apply absolute inset-0 transform-gpu object-cover object-center transition-all duration-300 ease-in-out;
   }
   .card-head-gradient {
     @apply absolute inset-0 transform-gpu bg-gradient-to-b from-slate-50/0 via-slate-900/20 to-slate-950 transition-all duration-300 ease-in-out;
@@ -22,19 +22,10 @@
     @apply text-lg font-bold text-white;
   }
   .card-content-wrapper {
-    @apply space-y-3 p-4 md:p-5;
+    @apply p-4 md:p-5;
   }
   .card-description {
     @apply text-gray-500 dark:text-gray-400;
-  }
-  .card-details-btn {
-    @apply inline-flex items-center gap-x-2 rounded-lg border border-transparent text-sm font-semibold text-blue-600 hover:text-blue-800 disabled:pointer-events-none disabled:opacity-50 dark:text-blue-500 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
-  }
-  .card-details-wrapper {
-    @apply w-full overflow-hidden transition-[height] duration-300;
-  }
-  .card-details {
-    @apply mt-1 text-gray-500 dark:text-gray-400;
   }
 
   .badge {
