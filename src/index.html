@@ -9,16 +9,22 @@
     <script src="main.js" defer></script>
   </head>
 
-  <body class="dark:bg-slate-900">
+  <body class="p-4 dark:bg-slate-900">
     <div class="card-wrapper">
-      <img
-        class="h-auto w-full rounded-t-xl"
-        src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80"
-        alt="Image Description"
-        loading="lazy"
-      />
+      <div class="card-head-wrapper group">
+        <img
+          class="card-head-img group-hover:scale-125"
+          src="https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg&w=640"
+          alt="Food"
+          loading="lazy"
+        />
+        <div class="card-title-wrapper">
+          <h3 class="card-title">Card title</h3>
+          <span class="badge">$69</span>
+        </div>
+        <div class="card-head-gradient group-hover:scale-125"></div>
+      </div>
       <div class="card-content-wrapper">
-        <h3 class="card-title">Card title</h3>
         <p class="card-description">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.

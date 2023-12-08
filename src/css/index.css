@@ -4,13 +4,25 @@
 
 @layer components {
   .card-wrapper {
-    @apply flex max-w-sm flex-col rounded-xl border bg-white shadow-sm dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7];
+    @apply flex max-w-xs flex-col rounded-xl border bg-white drop-shadow-lg dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7];
+  }
+  .card-head-wrapper {
+    @apply relative min-h-[190px] overflow-hidden rounded-t-xl;
+  }
+  .card-head-img {
+    @apply absolute inset-0 transform-gpu  object-cover object-center transition-all duration-300 ease-in-out;
+  }
+  .card-head-gradient {
+    @apply absolute inset-0 transform-gpu bg-gradient-to-b from-slate-50/0 via-slate-900/20 to-slate-950 transition-all duration-300 ease-in-out;
+  }
+  .card-title-wrapper {
+    @apply absolute bottom-5 z-10 flex w-full items-center justify-between px-4 md:px-5;
+  }
+  .card-title {
+    @apply text-lg font-bold text-white;
   }
   .card-content-wrapper {
     @apply space-y-3 p-4 md:p-5;
-  }
-  .card-title {
-    @apply text-lg font-bold text-gray-800 dark:text-white;
   }
   .card-description {
     @apply text-gray-500 dark:text-gray-400;
@@ -23,5 +35,9 @@
   }
   .card-details {
     @apply mt-1 text-gray-500 dark:text-gray-400;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full bg-teal-500 px-3 py-1 font-mono text-sm font-medium text-white;
   }
 }
