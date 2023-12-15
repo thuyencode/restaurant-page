@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+  #menu-container {
+    @apply flex flex-wrap place-content-center gap-5;
+  }
+
   .card-wrapper {
-    @apply xs:w-[42vw] flex w-full flex-col rounded-xl border bg-white drop-shadow-lg dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7] md:w-60 lg:w-72;
+    @apply flex w-full flex-col rounded-xl border bg-white drop-shadow-lg dark:border-gray-700 dark:bg-slate-900 dark:shadow-slate-700/[.7] xs:w-[42vw] md:w-60 lg:w-72;
   }
   .card-head-wrapper {
     @apply relative min-h-[190px] overflow-hidden rounded-t-xl;

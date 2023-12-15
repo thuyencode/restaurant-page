@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Phở bò",
+    "description": "Ngon, bổ, rẻ",
+    "price": 3.0,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pho_-_Vietnamese_noodle_soup.jpg/1200px-Pho_-_Vietnamese_noodle_soup.jpg"
+  },
+  {
+    "title": "Bún chả",
+    "description": "Ngon, đậm đà",
+    "price": 2.5,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bun_cha_Hanoi.jpg/1200px-Bun_cha_Hanoi.jpg"
+  },
+  {
+    "title": "Bún cá",
+    "description": "Thơm ngon, tươi mát",
+    "price": 3.0,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bun_ca_Hanoi.jpg/1200px-Bun_ca_Hanoi.jpg"
+  },
+  {
+    "title": "Bún bò Huế",
+    "description": "Đậm đà, đặc trưng",
+    "price": 4.0,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bun_bo_Hue.jpg/1200px-Bun_bo_Hue.jpg"
+  },
+  {
+    "title": "Cơm tấm",
+    "description": "Ngon, bổ, rẻ",
+    "price": 2.5,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Com_tam_Vietnamese_rice_with_grilled_pork.jpg/1200px-Com_tam_Vietnamese_rice_with_grilled_pork.jpg"
+  },
+  {
+    "title": "Bánh mì",
+    "description": "Ngon, tiện lợi",
+    "price": 2.0,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Banh_mi_Vietnamese_sandwich.jpg/1200px-Banh_mi_Vietnamese_sandwich.jpg"
+  },
+  {
+    "title": "Hủ tiếu",
+    "description": "Ngon, đậm đà",
+    "price": 3.5,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Hu_tieu_Vietnamese_noodle_soup.jpg/1200px-Hu_tieu_Vietnamese_noodle_soup.jpg"
+  },
+  {
+    "title": "Gỏi cuốn",
+    "description": "Tươi mát, ngon miệng",
+    "price": 1.5,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Goi_cuon_Vietnamese_spring_rolls.jpg/1200px-Goi_cuon_Vietnamese_spring_rolls.jpg"
+  },
+  {
+    "title": "Bánh xèo",
+    "description": "Ngon, giòn rụm",
+    "price": 2.5,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Banh_xeo_Vietnamese_crepe.jpg/1200px-Banh_xeo_Vietnamese_crepe.jpg"
+  },
+  {
+    "title": "Bún riêu cua",
+    "description": "Ngon, đậm đà",
+    "price": 4.0,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bun_rieu_cua_Vietnamese_crab"
+  }
+]
