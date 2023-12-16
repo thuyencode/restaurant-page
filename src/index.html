@@ -8,16 +8,88 @@
     <link href="css/index.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
-      href="https://fonts.bunny.net/css?family=inter:400,500,600,700"
+      href="https://fonts.bunny.net/css?family=inter:400|playfair-display:400,500,600"
       rel="stylesheet"
     />
     <script src="main.js" defer></script>
   </head>
 
-  <body class="bg-orange-100 p-4 dark:bg-slate-900">
+  <body
+    class="bg-orange-100 font-serif text-slate-900 dark:bg-slate-900 dark:text-white"
+  >
     <div id="content">
-      <div id="menu-container">
-        <h1 class="text-3xl font-medium">There's no items in the menu</h1>
+      <nav
+        class="fixed inset-x-0 top-0 flex border-b-2 border-white bg-orange-100 dark:bg-slate-900"
+        aria-label="Tabs"
+        role="tablist"
+      >
+        <button
+          type="button"
+          class="inline-flex w-1/3 items-center justify-center gap-x-2 whitespace-nowrap py-3 text-xl text-gray-800 hover:bg-white/60 hover:font-semibold disabled:pointer-events-none disabled:opacity-50 hs-tab-active:bg-white hs-tab-active:font-semibold hs-tab-active:text-slate-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+          class="mt-12"
+          id="tab-home-item"
+          data-hs-tab="#tab-home"
+          aria-controls="tab-home"
+          role="tab"
+        >
+          Home
+        </button>
+        <button
+          type="button"
+          class="active inline-flex w-1/3 items-center justify-center gap-x-2 whitespace-nowrap py-3 text-xl text-gray-800 hover:bg-white/60 hover:font-semibold disabled:pointer-events-none disabled:opacity-50 hs-tab-active:bg-white hs-tab-active:font-semibold hs-tab-active:text-slate-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+          class="mt-12"
+          id="tab-menu-item"
+          data-hs-tab="#tab-menu"
+          aria-controls="tab-menu"
+          role="tab"
+        >
+          Menu
+        </button>
+        <button
+          type="button"
+          class="inline-flex w-1/3 items-center justify-center gap-x-2 whitespace-nowrap py-3 text-xl text-gray-800 hover:bg-white/60 hover:font-semibold disabled:pointer-events-none disabled:opacity-50 hs-tab-active:bg-white hs-tab-active:font-semibold hs-tab-active:text-slate-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+          id="tab-contact-item"
+          data-hs-tab="#tab-contact"
+          aria-controls="tab-contact"
+          role="tab"
+        >
+          Contact
+        </button>
+      </nav>
+
+      <div
+        class="mt-12 text-2xl"
+        id="tab-menu"
+        role="tabpanel"
+        aria-labelledby="tab-menu"
+      >
+        <div
+          class="float-left w-full space-y-3 p-5 font-medium md:w-2/3 md:px-10 lg:px-16"
+          id="menu-container"
+        >
+          <h1 class="text-center text-3xl">There're no items on the menu</h1>
+        </div>
+        <div
+          class="bg-menu fixed right-0 top-0 -z-10 h-screen w-1/3 bg-cover bg-center text-white max-md:hidden"
+        ></div>
+      </div>
+
+      <div
+        class="mt-12 hidden p-5 text-center text-3xl md:px-10 lg:px-16"
+        id="tab-home"
+        role="tabpanel"
+        aria-labelledby="tab-home"
+      >
+        Home
+      </div>
+
+      <div
+        class="mt-12 hidden p-5 text-3xl md:px-10 lg:px-16"
+        id="tab-contact"
+        role="tabpanel"
+        aria-labelledby="tab-contact"
+      >
+        Contact
       </div>
     </div>
   </body>
