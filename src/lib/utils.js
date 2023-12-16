@@ -16,30 +16,15 @@ export function htmlToElement(html) {
 /**
  *
  * @param {MenuItem} menuProps
- * @returns
+ * @returns {HTMLDivElement}
  */
-export function createCard(menuProps) {
+export function createMenuItem(menuProps) {
   const template = `
-<div class="card-wrapper">
-  <div class="card-head-wrapper group">
-    <img
-      class="card-head-img group-hover:scale-125"
-      src="${menuProps.imgUrl}"
-      alt="Image of ${menuProps.title}"
-      loading="lazy"
-    />
-    <div class="card-title-wrapper">
-      <h3 class="card-title">${menuProps.title}</h3>
-      <span class="badge">$${menuProps.price}</span>
-    </div>
-    <div class="card-head-gradient group-hover:scale-125"></div>
-  </div>
-  <div class="card-content-wrapper">
-    <p class="card-description">
-      ${menuProps.description}.
-    </p>
-  </div>
-</div>`
+<p class="flex items-center justify-between border-b border-dashed border-slate-500 pb-3 dark:border-slate-300">
+  ${menuProps.title}
+  <span class="text-3xl">${menuProps.price} đ</span>
+</p>
+`
 
   return htmlToElement(template)
 }

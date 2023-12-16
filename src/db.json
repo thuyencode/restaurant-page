@@ -1,62 +1,42 @@
 [
   {
     "title": "Phở bò",
-    "description": "Ngon, bổ, rẻ",
-    "price": 3.0,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Phở_bò_%2839425047901%29.jpg/640px-Phở_bò_%2839425047901%29.jpg"
+    "price": "30.000"
   },
   {
     "title": "Bún chả",
-    "description": "Ngon, đậm đà",
-    "price": 2.5,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bún_chả_cá%2C_tháng_8_năm_2018.JPG/640px-Bún_chả_cá%2C_tháng_8_năm_2018.JPG"
+    "price": "25.000"
   },
   {
     "title": "Bún cá",
-    "description": "Thơm ngon, tươi mát",
-    "price": 3.0,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bun_cha_ca.jpg/640px-Bun_cha_ca.jpg"
+    "price": "30.000"
   },
   {
     "title": "Bún bò Huế",
-    "description": "Đậm đà, đặc trưng",
-    "price": 4.0,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/640px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg"
+    "price": "40.000"
   },
   {
     "title": "Cơm tấm",
-    "description": "Ngon, bổ, rẻ",
-    "price": 2.5,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cơm_Tấm%2C_Da_Nang%2C_Vietnam.jpg/640px-Cơm_Tấm%2C_Da_Nang%2C_Vietnam.jpg"
+    "price": "25.000"
   },
   {
     "title": "Bánh mì",
-    "description": "Ngon, tiện lợi",
-    "price": 2.0,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Steak_banh_mi_with_spicy_mayonnaise_on_fresh_bread.jpg/640px-Steak_banh_mi_with_spicy_mayonnaise_on_fresh_bread.jpg"
+    "price": "20.000"
   },
   {
     "title": "Hủ tiếu",
-    "description": "Ngon, đậm đà",
-    "price": 3.5,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hu-Tieu-Kho-2008.jpg/640px-Hu-Tieu-Kho-2008.jpg"
+    "price": "35.000"
   },
   {
     "title": "Gỏi cuốn",
-    "description": "Tươi mát, ngon miệng",
-    "price": 1.5,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Gỏi_cuốn_at_a_Vietnamese-style_restaurant_in_Beijing_%2820180103175625%29.jpg/640px-Gỏi_cuốn_at_a_Vietnamese-style_restaurant_in_Beijing_%2820180103175625%29.jpg"
+    "price": "15.000"
   },
   {
     "title": "Bánh xèo",
-    "description": "Ngon, giòn rụm",
-    "price": 2.5,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Banh_Xeo_with_fish_sauce_and_vegetables.jpg"
+    "price": "25.000"
   },
   {
     "title": "Bún riêu cua",
-    "description": "Ngon, đậm đà",
-    "price": 4.0,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bun_Rieu.jpg/640px-Bun_Rieu.jpg"
+    "price": "40.000"
   }
 ]
