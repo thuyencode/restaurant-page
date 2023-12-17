@@ -20,10 +20,10 @@ export function htmlToElement(html) {
  */
 export function createMenuItem(menuProps) {
   const template = `
-<p class="flex items-center justify-between border-b border-dashed border-slate-500 pb-3 dark:border-slate-300">
+<h2 class="flex items-center justify-between border-b border-dashed border-slate-500 pb-3 dark:border-slate-300">
   ${menuProps.title}
-  <span class="text-3xl">${menuProps.price} đ</span>
-</p>
+  <span>${menuProps.price} đ</span>
+</h2>
 `
 
   return htmlToElement(template)

@@ -8,7 +8,7 @@
     <link href="css/index.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
-      href="https://fonts.bunny.net/css?family=inter:400|playfair-display:400,500,600"
+      href="https://fonts.bunny.net/css?family=inter:300,400,500|playfair-display:400,500,600"
       rel="stylesheet"
     />
     <script src="main.js" defer></script>
@@ -19,7 +19,7 @@
   >
     <div id="content">
       <nav
-        class="fixed inset-x-0 top-0 flex border-b-2 border-white bg-orange-100 dark:bg-slate-900"
+        class="fixed inset-x-0 top-0 z-10 flex border-b-2 border-white bg-orange-100 dark:bg-slate-900"
         aria-label="Tabs"
         role="tablist"
       >
@@ -58,7 +58,7 @@
       </nav>
 
       <div
-        class="mt-12 text-2xl"
+        class="mt-12"
         id="tab-menu"
         role="tabpanel"
         aria-labelledby="tab-menu"
@@ -67,24 +67,117 @@
           class="float-left w-full space-y-3 p-5 font-medium md:w-2/3 md:px-10 lg:px-16"
           id="menu-container"
         >
-          <h1 class="text-center text-3xl">There're no items on the menu</h1>
+          <h1 class="mt-5 text-center">There're no items on the menu</h1>
         </div>
         <div
-          class="bg-menu fixed right-0 top-0 -z-10 h-screen w-1/3 bg-cover bg-center text-white max-md:hidden"
-        ></div>
+          class="fixed right-0 top-0 -z-10 h-screen w-1/3 bg-menu bg-cover bg-center text-white max-md:hidden"
+        >
+          <p
+            class="absolute inset-x-0 bottom-5 text-center font-sans text-sm text-white/80"
+          >
+            Photo by
+            <a
+              class="border-b border-white text-white"
+              href="https://unsplash.com/photos/a-couple-of-bowls-of-food-on-a-table-QCnvLhKv4is"
+              target="_blank"
+              >Monika Borys</a
+            >
+          </p>
+        </div>
       </div>
 
       <div
-        class="mt-12 hidden p-5 text-center text-3xl md:px-10 lg:px-16"
+        class="hidden"
         id="tab-home"
         role="tabpanel"
         aria-labelledby="tab-home"
       >
-        Home
+        <div
+          class="dark:bg-home-dark bg-home relative h-[50vh] bg-cover bg-center"
+        >
+          <div
+            class="flex h-full flex-col justify-center space-y-3 text-center text-white backdrop-blur-sm"
+          >
+            <h1 class="font-sans">Welcome to</h1>
+            <h1 class="text-5xl">Thuyen Code's Restaurant</h1>
+          </div>
+
+          <p
+            class="absolute inset-x-0 bottom-5 text-center font-sans text-sm text-white/80 dark:hidden"
+          >
+            Photo by
+            <a
+              class="border-b border-white text-white"
+              href="https://unsplash.com/photos/people-inside-cafe-qE1jxYXiwOA"
+              target="_blank"
+              >Petr Sevcovic</a
+            >
+          </p>
+          <p
+            class="absolute inset-x-0 bottom-5 hidden text-center font-sans text-sm text-white/80 dark:inline"
+          >
+            Photo by
+            <a
+              class="border-b border-white text-white"
+              href="https://unsplash.com/photos/a-group-of-people-sitting-at-a-table-in-a-restaurant-uskQ8hyZNgQ"
+              target="_blank"
+            >
+              Leohoho</a
+            >
+          </p>
+        </div>
+
+        <div class="p-5 text-center md:px-10 lg:px-16">
+          <div class="float-left w-1/2">
+            <h1 class="mb-3 font-semibold">Open Hours</h1>
+            <ul class="space-y-2 font-sans">
+              <li class="font-light">
+                <p>Sunday: <span class="font-medium">8am - 8pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Monday: <span class="font-medium">6am - 6pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Tuesday: <span class="font-medium">6am - 6pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Wednesday: <span class="font-medium">6am - 6pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Thursday: <span class="font-medium">6am - 10pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Friday: <span class="font-medium">6am - 10pm</span></p>
+              </li>
+              <li class="font-light">
+                <p>Saturday: <span class="font-medium">8am - 10pm</span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="float-right w-1/2">
+            <h1 class="mb-3 font-semibold">Location</h1>
+            <p class="font-sans">
+              <a
+                class="inline-flex items-center gap-1.5 border-b border-transparent font-sans hover:border-white"
+                href="https://github.com/thuyencode/restaurant-page"
+              >
+                <iconify-icon
+                  class="text-xl"
+                  icon="ri:github-fill"
+                ></iconify-icon>
+                Thuyen Code, Github, The Internet
+                <iconify-icon
+                  class="text-xl"
+                  icon="ri:external-link-line"
+                ></iconify-icon>
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div
-        class="mt-12 hidden p-5 text-3xl md:px-10 lg:px-16"
+        class="mt-12 hidden p-5 md:px-10 lg:px-16"
         id="tab-contact"
         role="tabpanel"
         aria-labelledby="tab-contact"
