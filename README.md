@@ -1,65 +1,32 @@
-# webpack-tailwindcss
+# Project: Restaurant Page
 
-This template is made to help start your project based on Webpack + TailwindCSS.
-JS is built and minified by ESBuild to keep it fast no matter what you do.
+[More detail information here](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page).
 
-Build preview is available at: https://pavelloz.github.io/webpack-tailwindcss/
+![The website looks like this](https://i.ibb.co/Bs5KyWw/thuyencode-github-io-2023-12-18-16-39-21.png)
 
-## Usage
+## Getting started
 
-1) To use this template, click "Use this template" green button in the top right.
-2) Clone the repository to your computer
-3) Install dependencies - `npm ci`
-4) Configure where your views are in [tailwind.config.js](https://github.com/pavelloz/webpack-tailwindcss-purgecss/blob/master/tailwind.config.js).
+First, install all the dependencies:
 
-### npm tasks
-* `npm start` - runs dev server on `http://localhost:8888` and reloads the browser on changes
-* `npm run build` - build assets in production mode, ready to deploy
+```bash
+npm i
+# or if you're using Bun
+bun i
+```
 
-## Webpack setup includes
-* JS and CSS transpilation and minification done by ESBuild (FAST)
-* CSS extraction using `mini-css-extract-plugin`
-* HTML generation using `html-webpack-plugin`
-* Examples:
-  * Prefetched chunk, if you want to load faster critical parts of your build
-  * Asynchronously loaded chunks, to block page rendering when loading/parsing/executing
-  * Named chunks if you dont want your chunks to look like `2aae6c35c94fcfb415dbe95f408b9ce91ee846ed.js`
+To run the dev server:
 
-## PostCSS setup includes
-* [autoprefixer](https://github.com/postcss/autoprefixer) - Adding vendor prefixes, just in case. See package.json for `browserslist` config
-* [postcss-import](https://github.com/postcss/postcss-import) - Support for @imports - just like in SASS
+```bash
+npm run start
+# or if you're using Bun
+bun start
+```
 
-## TailwindCSS setup includes
-* Official [TailwindCSS forms](https://tailwindcss.com/docs/plugins#forms) plugin loaded
-* Examples:
-  * Extending default color palette
-  * Setting custom font as first in font family declaration
-  * Custom (`xxl`) breakpoint for responsive purposes
-  * Custom variant for border width property
+To export the production build:
 
-## Notes
-* Before every build, build directory (`dist`) is deleted to avoid deploying old assets
+```bash
+npm run build
 
-## Additional resources
-
-* [Tailwind.run](https://tailwind.run/new) - sandbox for quickly mocking/debugging components in isolation
-* [TailwindCSS Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet) - with search. Hopefully will be updated to the latest TailwindCSS version soon
-* [VSCode IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Custom config aware autocomplete for TailwindCSS
-* [Webpack dynamic imports](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234) - How and why do the dynamic imports. See [`js/app.js`](src/js/app.js) for example.
-
-## Github Actions
-
-TODO
-
-## E2E tests
-
-TODO
-
-## Happy coding!
-
-## TODO
-
-* Migrate to pnpm
-* Add node_modules caching in GHA to speed up builds
-* Write simple cypress test run on the example, after the deployment
-* Split webpack configs into common + dev/prod to avoid pushing to plugins array 
+# or if you're using Bun
+bun run build
+```
