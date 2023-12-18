@@ -4,6 +4,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
     "esbuild-loader": "^4.0.2",
+    "gh-pages": "^6.1.0",
     "html-bundler-webpack-plugin": "^3.4.2",
     "postcss": "^8.4.32",
     "postcss-import": "^15.1.0",
@@ -18,7 +19,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
-    "build:dev": "cross-env NODE_ENV=development webpack-cli"
+    "build:dev": "cross-env NODE_ENV=development webpack-cli",
+    "deploy": "gh-pages --dist 'dist' --branch 'gh-pages'"
   },
   "dependencies": {
     "iconify-icon": "^1.0.8",
